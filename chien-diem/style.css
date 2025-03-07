@@ -531,7 +531,7 @@
 
 .lb-dress2{
     font-family: var(--font-lora);
-    font-size: .55em;
+    font-size: .5em;
     letter-spacing: .5px;
     word-spacing: .5px;
 }
@@ -559,7 +559,7 @@
 }
 
 .lb-nam{
-    width: 100px;
+    width: 90px;
     border: 2px solid var(--primary-color);
     border-radius: 20px;
     margin-bottom: 5px;
@@ -571,7 +571,7 @@
 }
 
 .color-nam{
-    padding: 15px;
+    padding: 15px 10px;
     border: 2px solid var(--primary-color);
     border-radius: 20px;
 }
