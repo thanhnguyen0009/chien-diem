@@ -380,7 +380,7 @@
 
 .lb-top3{
     font-family: var(--font-svn);
-    font-size: 2.1em;
+    font-size: 1.8em;
     font-weight: 300;
     margin-bottom: 50px;
 }
@@ -425,13 +425,14 @@
 .kinhmoi{
     font-family: var(--font-lora);
     text-transform: uppercase;
-    font-size: .6em;
+    font-size: .5em;
     letter-spacing: 1px;
+    margin-bottom: 5px;
 }
 
 .lb-inv{
     font-family: var(--font-svn);
-    font-size: 2.2em;
+    font-size: 1.8em;
 }
 
 .img-inv{
@@ -456,7 +457,7 @@
 
 .add2{
     font-family: var(--font-lora);
-    font-size: .6em;
+    font-size: .5em;
 }
 
 .maps{
@@ -487,7 +488,7 @@
 
 .lb-timeline2{
     font-family: var(--font-lora);
-    font-size: .65em;
+    font-size: .6em;
 }
 
 .img-timeline{
@@ -828,6 +829,10 @@ background-color: #fff;
 color: #fff;
 background-color: var(--primary-color);
 }
+.check-box:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
 
   .box-ten{
     display: flex;
@@ -885,6 +890,7 @@ input::placeholder, textarea::placeholder{
     cursor: pointer;
     width: 150px;
     font-weight: 300;
+    font-family: var(--font-lora);
 }
     
     .xacnhan:hover{
@@ -1038,6 +1044,11 @@ input::placeholder, textarea::placeholder{
     }
     .kinhmoi{
         font-size: .6em;
+    }
+    textarea {
+        width: 90%;
+        padding: 10px;
+        font-size: .75em;
     }
   }
   
