@@ -115,6 +115,52 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'UVN Ke Chuyen1';
+    src: url('./fonts/UVNKeChuyen1.woff2') format('woff2'),
+        url('./fonts/UVNKeChuyen1.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Hoa Tay 1';
+    src: url('./fonts/UVNHoaTay1.woff2') format('woff2'),
+        url('./fonts/UVNHoaTay1.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Ke Chuyen2';
+    src: url('./fonts/UVNKeChuyen2.woff2') format('woff2'),
+        url('./fonts/UVNKeChuyen2.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pinyon Script';
+    src: url('./fonts/PinyonScript-Regular.woff2') format('woff2'),
+        url('./fonts/PinyonScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Aaron Script';
+    src: url('./fonts/SVN-AaronScript.woff2') format('woff2'),
+        url('./fonts/SVN-AaronScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 
 
@@ -122,6 +168,10 @@
 :root{
     --font-lora: 'Lora';
     --font-uvn: 'UVN Ke Chuyen3';
+    --font-uvn1: 'UVN Ke Chuyen1';
+    --font-uvn2: 'UVN Ke Chuyen2';
+    --font-pinyon: 'Pinyon Script';
+    --font-svn: 'SVN-Aaron Script';
     --primary-color: #4F5638;
 }
 
@@ -317,7 +367,7 @@
 }
 
 .lb-top{
-    font-family: var(--font-uvn);
+    font-family: var(--font-svn);
     font-size: 1em;
 }
 
@@ -329,8 +379,8 @@
 }
 
 .lb-top3{
-    font-family: var(--font-uvn);
-    font-size: 2.3em;
+    font-family: var(--font-svn);
+    font-size: 2.1em;
     font-weight: 300;
     margin-bottom: 50px;
 }
@@ -380,7 +430,7 @@
 }
 
 .lb-inv{
-    font-family: var(--font-uvn);
+    font-family: var(--font-svn);
     font-size: 2.2em;
 }
 
@@ -399,7 +449,7 @@
 }
 
 .lb-add{
-    font-family: var(--font-uvn);
+    font-family: var(--font-svn);
     font-size: 2.3em;
 }
 
@@ -431,7 +481,7 @@
 }
 
 .lb-timeline1{
-    font-family: var(--font-uvn);
+    font-family: var(--font-svn);
     font-size: 2em;
 }
 
@@ -474,7 +524,7 @@
 }
 
 .lb-dress1{
-    font-family: var(--font-uvn);
+    font-family: var(--font-svn);
     font-size: 2.2em;
     margin-top: 100px;
 }
@@ -673,7 +723,7 @@ form{
 }
 
 .lb-form1{
-    font-family: var(--font-uvn);
+    font-family: var(--font-svn);
     font-size: 2.5em;
 }
 
@@ -869,7 +919,7 @@ input::placeholder, textarea::placeholder{
 }
 
 .lb-thank{
-    font-family: var(--font-uvn);
+    font-family: var(--font-svn);
     font-size: 3em;
     margin-bottom: -40px;
 }
